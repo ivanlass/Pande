@@ -1,0 +1,112 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	border: 0;
+
+}
+
+a{
+	height: 1rem;
+	margin: 1rem;
+	padding: 2rem;
+	text-decoration: none;
+	color: white;
+}
+
+
+
+li {
+	font-size: 2rem;
+	top: 7rem;
+	transition: all .3s;
+}
+
+.desno {
+	position: absolute;
+	right: 5%;
+
+}
+
+.prvi {
+	right: 20%;
+}
+
+.lijevo {
+	position: absolute;
+	left: 5%;
+}
+.drugi {
+	left: 20%;
+}
+
+.aboutairsoft{
+	font-size: 3rem;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	background-color: rgba(black, .4);
+	width: 100%;
+	height:auto;
+	padding: 4rem;
+	margin-top: 10%;
+
+	h3 {
+		margin-bottom: 3rem;
+	}
+
+}
+
+.logo2  {
+
+	border-radius: 100px;
+	height: 14%;
+	margin: 0%;
+}
+
+
+@media only screen and (max-width: 750px) {
+	
+
+	.aboutairsoft {
+		margin-top: 20rem;
+		font-size: 2rem;
+		padding: 1rem;
+	}
+
+	header {
+		height: 12rem
+	}
+	
+	
+
+	li {
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+
+	.lijevo {
+		top: 7rem;
+		left: 0rem;
+	}
+	.drugi {
+		top: 13rem;
+		margin-left: -10rem;
+	}
+
+	.desno {
+		top: 7rem;
+		right: 0rem;
+	}
+	.prvi {
+		top: 13rem;
+		margin-right: -10rem;
+	}
+
+	.logo {
+		border-radius: 100px;
+		
+	}
+	
+}

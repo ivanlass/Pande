@@ -1,0 +1,104 @@
+
+
+.wrapptwo {
+	height: auto;
+	background-image: url(../images/soldier.jpeg);
+	background-attachment: fixed;
+}
+
+header {
+	margin-bottom: 10rem;
+}
+
+section {
+	width: 100%;
+	
+}
+
+.clan{
+	position: relative;
+	color: white;
+	background-color: rgba(black, .9);
+	padding: 2rem;
+	font-size: 3rem;
+
+
+	.slika{
+		width: 20rem;
+		border-radius: 10rem;
+		margin: 1rem;
+		transition: all .5s;
+	}
+	.sub {
+		
+		position: absolute;
+		top: 1rem;
+		left: 50%;
+		transform: translate(-50%);
+	}
+	.datum {
+		top: 40%;
+	}
+	.cin {
+		top: 80%;
+	}
+}
+
+.clan:not(:last-child) {
+	margin-bottom: 15rem;
+}
+
+
+@media screen and (max-width: 990px) {
+		section {
+			
+			.sub {
+				font-size: 2rem;
+			}
+		}
+
+}
+
+@media screen and (max-width: 720px) {
+	.sub {
+		width: 30%;
+		display: block;
+		font-size: 1rem;
+		margin-left: 10rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.clan {
+		height: 50rem;
+		text-align: center;
+	}
+
+	.slika {
+		position: absolute;
+		left: 50%;
+		transform:translate(-60%);
+	}
+
+	.sub{
+		margin-left: 0;
+		
+		height: 2rem;
+		padding: 0;
+	}
+
+	.ime {
+		margin-top: 25rem;
+	}
+
+	.datum {
+		margin-top: 10rem;
+	}
+
+	.cin {
+	
+	}
+}
+
+
+

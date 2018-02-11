@@ -1,0 +1,301 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 10px; }
+
+body {
+  box-sizing: border-box; }
+
+.wrapper {
+  background-image: url(../images/soldier.jpeg);
+  height: 100%;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+header {
+  background-color: #666625;
+  width: auto;
+  height: 5rem;
+  margin-top: 5rem;
+  box-shadow: 0rem .4rem 1rem black; }
+  header .logo {
+    position: absolute;
+    width: 15rem;
+    left: 50%;
+    top: 0rem;
+    transform: translate(-50%) scale(1.2); }
+
+main {
+  display: block;
+  position: absolute;
+  width: 80%;
+  height: 20%;
+  top: 40%;
+  left: 56%;
+  font-size: 4rem;
+  transform: translate(-50%); }
+
+.izbor {
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  margin-right: 1rem;
+  background-color: black;
+  box-shadow: 0rem 1rem 2rem 0rem black;
+  border-radius: 5px;
+  color: white;
+  padding-top: 5%;
+  transition: all .3s; }
+
+a {
+  height: 1rem;
+  margin: 1rem;
+  padding: 2rem;
+  text-decoration: none;
+  color: white; }
+
+.logo2 {
+  border-radius: 100px;
+  height: 14%;
+  margin: 0%; }
+
+li {
+  display: inline-block;
+  font-size: 2rem;
+  top: 7rem; }
+
+.desno {
+  position: absolute;
+  right: 5%; }
+
+.prvi {
+  right: 20%; }
+
+.lijevo {
+  position: absolute;
+  left: 5%; }
+
+.drugi {
+  left: 20%; }
+
+@media only screen and (max-width: 1440px) {
+  main {
+    width: 70%; }
+    main a {
+      padding: 0; } }
+@media only screen and (max-width: 1065px) {
+  main {
+    font-size: 1.5rem; }
+    main .izbor {
+      height: 50%; } }
+@media only screen and (max-width: 630px) {
+  main {
+    left: 50%; }
+
+  .izbor {
+    width: 100%;
+    margin-bottom: 4rem; } }
+li:hover {
+  transform: scale(1.1);
+  shadow: 1px 1px 1px black; }
+
+.izbor:hover {
+  transform: scale(1.1); }
+
+.slika:hover {
+  transform: scale(1.9) translateX(2rem); }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  border: 0; }
+
+a {
+  height: 1rem;
+  margin: 1rem;
+  padding: 2rem;
+  text-decoration: none;
+  color: white; }
+
+li {
+  font-size: 2rem;
+  top: 7rem;
+  transition: all .3s; }
+
+.desno {
+  position: absolute;
+  right: 5%; }
+
+.prvi {
+  right: 20%; }
+
+.lijevo {
+  position: absolute;
+  left: 5%; }
+
+.drugi {
+  left: 20%; }
+
+.aboutairsoft {
+  font-size: 3rem;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: auto;
+  padding: 4rem;
+  margin-top: 10%; }
+  .aboutairsoft h3 {
+    margin-bottom: 3rem; }
+
+.logo2 {
+  border-radius: 100px;
+  height: 14%;
+  margin: 0%; }
+
+@media only screen and (max-width: 750px) {
+  .aboutairsoft {
+    margin-top: 20rem;
+    font-size: 2rem;
+    padding: 1rem; }
+
+  header {
+    height: 12rem; }
+
+  li {
+    display: block;
+    padding: 0;
+    margin: 0; }
+
+  .lijevo {
+    top: 7rem;
+    left: 0rem; }
+
+  .drugi {
+    top: 13rem;
+    margin-left: -10rem; }
+
+  .desno {
+    top: 7rem;
+    right: 0rem; }
+
+  .prvi {
+    top: 13rem;
+    margin-right: -10rem; }
+
+  .logo {
+    border-radius: 100px; } }
+.wrapptwo {
+  height: auto;
+  background-image: url(../images/soldier.jpeg);
+  background-attachment: fixed; }
+
+header {
+  margin-bottom: 10rem; }
+
+section {
+  width: 100%; }
+
+.clan {
+  position: relative;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 2rem;
+  font-size: 3rem; }
+  .clan .slika {
+    width: 20rem;
+    border-radius: 10rem;
+    margin: 1rem;
+    transition: all .5s; }
+  .clan .sub {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translate(-50%); }
+  .clan .datum {
+    top: 40%; }
+  .clan .cin {
+    top: 80%; }
+
+.clan:not(:last-child) {
+  margin-bottom: 15rem; }
+
+@media screen and (max-width: 990px) {
+  section .sub {
+    font-size: 2rem; } }
+@media screen and (max-width: 720px) {
+  .sub {
+    width: 30%;
+    display: block;
+    font-size: 1rem;
+    margin-left: 10rem; } }
+@media screen and (max-width: 480px) {
+  .clan {
+    height: 50rem;
+    text-align: center; }
+
+  .slika {
+    position: absolute;
+    left: 50%;
+    transform: translate(-60%); }
+
+  .sub {
+    margin-left: 0;
+    height: 2rem;
+    padding: 0; }
+
+  .ime {
+    margin-top: 25rem; }
+
+  .datum {
+    margin-top: 10rem; } }
+a {
+  padding: 2rem;
+  text-decoration: none;
+  color: white; }
+
+a .logo {
+  padding: 7rem; }
+
+.logo2 {
+  border-radius: 100px;
+  height: 14%;
+  margin: 0%; }
+
+li {
+  display: inline-block;
+  font-size: 2rem;
+  top: 7rem; }
+
+.desno {
+  position: absolute;
+  right: 5%; }
+
+.prvi {
+  right: 20%; }
+
+.lijevo {
+  position: absolute;
+  left: 5%; }
+
+.drugi {
+  left: 20%; }
+
+span {
+  text-decoration: underline; }
+
+.logo2 {
+  border-radius: 100px;
+  height: 14%;
+  margin: 0%; }
+
+/*# sourceMappingURL=style.css.map */
